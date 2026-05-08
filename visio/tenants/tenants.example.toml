@@ -1,0 +1,20 @@
+# Tenant declaration example.
+#
+# In the public demo, tenants are defined in `visio/synthetic/generator.py`
+# (TENANT_PROFILES) and the connectors route to synthetic data.
+#
+# To wire production sources, copy this file to `tenants.toml`, fill in real
+# IDs, and override `visio.connectors.*.read` to use them.
+#
+# Real IDs are sensitive — keep `tenants.toml` out of version control.
+
+[tenant.demo_services]
+display_name = "Demo · professional services SME"
+sector = "professional_services"
+
+# Uncomment and fill to wire real Google sources.
+# ga4_property_id    = "properties/123456789"
+# search_console_url = "https://example.com/"
+# google_ads_customer_id = "123-456-7890"
+# bigquery_project   = "your-gcp-project"
+# bigquery_dataset   = "your_kpi_dataset"

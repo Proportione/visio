@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swn
+
+# Synthetic data caches
+.synthetic_cache/
+*.parquet
+*.feather
+
+# Credentials — anything that looks like a credential MUST stay out
+*credentials*.json
+*service-account*.json
+*sa-key*.json
+*.pem
+*.key
+.gcp/
+keys/
+
+# Build artifacts
+dist/
+build/
+*.egg

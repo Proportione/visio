@@ -1,0 +1,10 @@
+# Visio public — methodological subset of the production dashboard.
+# Cloud-specific clients (BigQuery, GA4, Search Console) are optional extras
+# in `requirements-cloud.txt` so a reviewer can run the demo locally with
+# synthetic data, no GCP credentials required.
+
+streamlit>=1.40,<2
+pandas>=2.0
+plotly>=5.18
+numpy>=1.26
+python-dateutil>=2.9
