@@ -2,7 +2,7 @@
 """Smoke check for the public Visio demo.
 
 Exits 0 if every layer wires correctly with synthetic data, non-zero otherwise.
-Useful for CI and for a CAPSI reviewer wanting one-command reassurance that the
+Useful for CI and for an external reviewer wanting one-command reassurance that the
 artifact reproduces.
 
 Usage::
