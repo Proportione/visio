@@ -218,14 +218,14 @@ def generate_kpi_series(tenant: Tenant, days: int = 90) -> pd.DataFrame:
 
     rng = np.random.default_rng(tenant.seed + 7)
     kpi_unit = {
-        "online_education": "matriculas_DECA",
+        "online_education": "enrolments_online",
         "third_sector": "donaciones_eur",
         "professional_services": "leads_cualificados",
     }[tenant.sector]
 
     if kpi_unit == "donaciones_eur":
         scale = 25.0
-    elif kpi_unit == "matriculas_DECA":
+    elif kpi_unit == "enrolments_online":
         scale = 0.6
     else:
         scale = 1.4
