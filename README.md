@@ -1,4 +1,4 @@
-# Proportione Visio
+# Provisio
 
 [![Apache 2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 [![Streamlit](https://img.shields.io/badge/streamlit-1.40+-FF4B4B.svg)](https://streamlit.io)
@@ -6,7 +6,7 @@
 
 A multi-tenant Business Intelligence artifact that puts SME business KPIs and digital signals on the same view, quantifies their relationship, and surfaces prioritised recommendations through an optional LLM-mediated fusion layer.
 
-This repository accompanies the paper *From systematic review to operational artifact: an LLM-mediated BI platform translating digital signals into business outcomes for SMEs* (CAPSI 2026, in submission), and is the public, reproducible counterpart of the production deployment running at `visio.proportione.com`.
+This repository is the public reference implementation of a research artifact described in a manuscript currently under pre-publication review. The corresponding production deployment runs at the URL declared on the repository's homepage.
 
 ## What you can do here
 
@@ -74,9 +74,9 @@ The production deployment uses the same `visio/widgets/` and `visio/connectors/`
 
 ## Status
 
-Research artifact. The CAPSI 2026 paper introduces the artifact methodologically; this repository is the reference implementation cited in the paper. The research line continues with empirical case studies on Iberian SMEs.
+Research artifact. The accompanying manuscript introduces the artifact methodologically; this repository is the reference implementation cited in that manuscript. The research line continues with empirical case studies on Iberian SMEs.
 
-The 20-60-20 collaboration framework that organises the artifact's human-AI split has prior validations in two adjacent domains; see the paper and [ARQUITECTURA.md](ARQUITECTURA.md) §"The 20-60-20 collaboration model" for the cite chain.
+The 20-60-20 collaboration framework that organises the artifact's human-AI split has prior validations in two adjacent domains; see [ARQUITECTURA.md](ARQUITECTURA.md) §"The 20-60-20 collaboration model" for the cite chain.
 
 ## Responsible AI
 
@@ -88,24 +88,11 @@ Issue reports, replication studies, and connector contributions are welcome. The
 
 ## Acknowledgements
 
-This work is part of the doctoral research of Javier Cuervo López at the Department of Economics, Management, Industrial Engineering and Tourism (DEGEIT), Universidade de Aveiro, under the Doctoral Programme in Business and Innovation (DBI). The artifact is operated by Proportione, LDA and the public release is published under the Proportione GitHub organisation.
+Full acknowledgements will be published upon manuscript acceptance.
 
 ## Citation
 
-If you use this artifact in academic work, please cite:
-
-```bibtex
-@inproceedings{cuervo2026visio,
-    author    = {Cuervo López, Javier},
-    title     = {{From systematic review to operational artifact: an LLM-mediated BI platform translating digital signals into business outcomes for SMEs}},
-    booktitle = {{Proceedings of the 26th Conference of the Portuguese Association for Information Systems (CAPSI 2026)}},
-    year      = {2026},
-    address   = {Coimbra, Portugal},
-    note      = {In submission}
-}
-```
-
-For non-academic uses, please reference the artifact as `Proportione Visio` and link this repository.
+A citation block (BibTeX / CFF) will be added here upon manuscript acceptance. The machine-readable [CITATION.cff](CITATION.cff) is the source of truth meanwhile.
 
 ## License
 
