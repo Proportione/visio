@@ -1,15 +1,10 @@
 cff-version: 1.2.0
-title: "Proportione Visio: an LLM-mediated Business Intelligence artifact translating digital signals into business outcomes for SMEs"
-message: "If you use this software, please cite the accompanying paper (CAPSI 2026, in submission)."
+title: "Provisio: an LLM-mediated multi-tenant Business Intelligence artifact for SMEs"
+message: "If you use this software, please cite the accompanying manuscript (currently under double-blind review). Author and citation details will be updated upon acceptance."
 type: software
 authors:
-  - family-names: "Cuervo López"
-    given-names: "Javier"
-    email: "javier.cuervo@proportione.com"
-    affiliation: "Universidade de Aveiro / Proportione, LDA"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - name: "Authors withheld for double-blind review"
 repository-code: "https://github.com/Proportione/visio"
-url: "https://visio.proportione.com"
 license: Apache-2.0
 keywords:
   - business-intelligence
@@ -21,17 +16,3 @@ keywords:
   - kpi
   - streamlit
   - multi-tenant
-preferred-citation:
-  type: conference-paper
-  title: "From systematic review to operational artifact: an LLM-mediated BI platform translating digital signals into business outcomes for SMEs"
-  authors:
-    - family-names: "Cuervo López"
-      given-names: "Javier"
-  year: 2026
-  conference:
-    name: "26ª Conferência da Associação Portuguesa de Sistemas de Informação (CAPSI 2026)"
-    city: "Coimbra"
-    country: "Portugal"
-    date-start: 2026-10-08
-    date-end: 2026-10-10
-  status: in-press
