@@ -1,6 +1,6 @@
 # Architecture — Proportione Visio
 
-> Companion document to the CAPSI 2026 paper *From systematic review to operational artifact*. The accompanying paper (in submission) discusses the methodology and evaluation; this file describes the **as-built architecture** of the public artifact.
+> Companion document to a research artifact described in a manuscript currently under pre-publication review. The accompanying manuscript discusses the methodology and evaluation; this file describes the **as-built architecture** of the public artifact.
 
 ## At a glance
 
@@ -77,7 +77,7 @@ These figures are estimates from the production deployment, included here so a r
 
 Production routes tenants by authenticated email; row-level filtering is then performed in BigQuery views per `tenant_id`. The public repo simulates this with synthetic data and a `tenant_id` column on every table.
 
-A documented gap from the production system is that BigQuery row-level security (RLS) policies are not yet enforced at the database level — isolation is currently logical, not physical. The CAPSI paper acknowledges this gap explicitly in its discussion of responsible-AI design choices.
+A documented gap from the production system is that BigQuery row-level security (RLS) policies are not yet enforced at the database level — isolation is currently logical, not physical. The accompanying manuscript acknowledges this gap explicitly in its discussion of responsible-AI design choices.
 
 ## Where the LLM layer ends and the BI layer begins
 
